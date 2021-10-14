@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E shop</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <a href="/">
+        <img src="./img/logo.jpg" alt="logo">
+      </a>
+      <div class="col">
+        <form action="">
+          <input type="text" id="search-input" name="search" placeholder="Ieškokite..." autocomplete="off">
+          <div class="search-results" id="search-results"></div>
+        </form>
+      </div>
+
+      <div class="col">
+        <div class="act">
+          <i class="fas fa-user-alt"></i>
+          <span>Paskyra</span>
+        </div>
+        <div class="act" id="display-bag">
+          <i class="fas fa-shopping-bag">
+            <div id="total"></div>
+          </i>
+          <span>Krepšelis</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <div class="container">
+      <!-- layout-left -->
+      <div class="layout-left">
+        <div class="options-display">
+          <div class="arrow">></div>
+          <h2 id="show-all-produtcs">Visos prekės</h2>
+          <div id="categories"></div>
+        </div>
+
+        <div class="options-display">
+          <div class="arrow">></div>
+          <h2>Kaina</h2>
+          <div id="rangeslider"></div>
+          <div id="rangedval">
+            <span id="rangeval"></span>
+          </div>
+        </div>
+      </div>
+      <!-- products -->
+      <div class="products">
+        <div class="options-display">
+          <select id="sort-products">
+            <option value="">Rikiuoti random</option>
+            <option value="PRICE_DESC">Kaina max->min</option>
+            <option value="PRICE_ASC">Kaina min->max</option>
+            <option value="COLOR_ASC">Spalva</option>
+          </select>
+          <i class="fas fa-th" id="display-th"></i>
+          <i class="fas fa-th-list" id="display-list"></i>
+        </div>
+        <div id="products"></div>
+      </div>
+    </div>
+    <!-- bag -->
+    <div class="shopping-bag">
+      <div class="bag">
+        <div class="close-bag">X</div>
+        <div id="products-bag"></div>
+        <div class="full">
+          <p>Viso kaina: <span id="total-price"></span></p>
+          <button>Pirkti</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="col">
+        <h2>Kontaktai</h2>
+
+        <p><i class="fas fa-map-marker-alt"></i>
+          Vilnius, Vilniaus g. 1</p>
+
+        <p><i class="fas fa-envelope"></i>
+          marek@jankovskij.lt</p>
+
+        <p><i class="fas fa-phone"></i>
+          +37060000000</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2306.653780253532!2d25.279917115889177!3d54.680521980280254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd94147a4e2dd3%3A0xd4ae9390bd6d6b3!2sVilniaus%20g.%2047-1%2C%20Vilnius%2001119!5e0!3m2!1slt!2slt!4v1633022828862!5m2!1slt!2slt"
+          style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <div class="col">
+        <h2>Nuorodos</h2>
+        <a href="#">Privatumo politika</a>
+        <a href="#">Pirkėjų atsiliepimai</a>
+        <a href="#">Garantinis taisymas</a>
+        <a href="#">Apsipirkimo gidas</a>
+        <a href="#">Partneriai</a>
+        <a href="#">Pristatymas</a>
+        <a href="#">DUK</a>
+      </div>
+
+    </div>
+
+
+  </footer>
+
+  <!-- Additional CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- JS -->
+
+  <link rel="stylesheet" type="text/css" media="all"
+    href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+
+  <script type="module" src="./js/app.js"></script>
+
+</body>
+
+</html>

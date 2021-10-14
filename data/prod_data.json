@@ -1,0 +1,225 @@
+[ {
+  "id": 1,
+  "title": "Kelnės - juodos",
+  "price": 82.06,
+  "discount": 1,
+  "color": "Juoda",
+  "category": "Apranga",
+  "description": "lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse"
+}, {
+  "id": 2,
+  "title": "Kelnės - raudonos",
+  "price": 68.54,
+  "discount": 1,
+  "color": "Raudona",
+  "category": "Apranga",
+  "description": "sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed"
+}, {
+  "id": 3,
+  "title": "Kelnės - geltonos",
+  "price": 72.78,
+  "discount": 0,
+  "color": "Geltona",
+  "category": "Apranga",
+  "description": "ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi"
+}, {
+  "id": 4,
+  "title": "Kelnės - mėlynos",
+  "price": 70.55,
+  "discount": 0,
+  "color": "Mėlyna",
+  "category": "Apranga",
+  "description": "pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac"
+}, {
+  "id": 5,
+  "title": "Paspiriama mašinytė",
+  "price": 300.65,
+  "discount": 1,
+  "color": "Balta",
+  "category": "Vaikams",
+  "description": "congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla"
+}, {
+  "id": 6,
+  "title": "Mašinytė",
+  "price": 20.16,
+  "discount": 1,
+  "color": "Mėlyna",
+  "category": "Vaikams",
+  "description": "magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id"
+}, {
+  "id": 7,
+  "title": "Delionė - vėliavos",
+  "price": 35.23,
+  "discount": 1,
+  "color": "Mėlyna",
+  "category": "Vaikams",
+  "description": "vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci"
+}, {
+  "id": 8,
+  "title": "Delionė",
+  "price": 30.32,
+  "discount": 1,
+  "color": "Mėlyna",
+  "category": "Vaikams",
+  "description": "proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae"
+}, {
+  "id": 9,
+  "title": "Kištukinis lizdas",
+  "price": 5.49,
+  "discount": 1,
+  "color": "Balta",
+  "category": "Elektronika",
+  "description": "facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget"
+}, {
+  "id": 10,
+  "title": "RGB lemputė",
+  "price": 20.59,
+  "discount": 0,
+  "color": "Balta",
+  "category": "Elektronika",
+  "description": "odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue"
+}, {
+  "id": 11,
+  "title": "Kaitrinė lemputė",
+  "price": 7.33,
+  "discount": 0,
+  "color": "Balta",
+  "category": "Elektronika",
+  "description": "a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla"
+}, {
+  "id": 12,
+  "title": "LED lemputė",
+  "price": 10.69,
+  "discount": 1,
+  "color": "Geltona",
+  "category": "Elektronika",
+  "description": "feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas"
+}, {
+  "id": 13,
+  "title": "Grindų šluota",
+  "price": 10.81,
+  "discount": 1,
+  "color": "Žalia",
+  "category": "Buities prekės",
+  "description": "morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem"
+}, {
+  "id": 14,
+  "title": "Servetėlės",
+  "price": 2.92,
+  "discount": 0,
+  "color": "Mėlyna",
+  "category": "Buities prekės",
+  "description": "lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat"
+}, {
+  "id": 15,
+  "title": "Langų valymo skystis",
+  "price": 5.41,
+  "discount": 1,
+  "color": "Mėlyna",
+  "category": "Buities prekės",
+  "description": "erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum"
+}, {
+  "id": 16,
+  "title": "Tualetinis popierius - Deluxe",
+  "price": 10.68,
+  "discount": 0,
+  "color": "Balta",
+  "category": "Buities prekės",
+  "description": "id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo"
+}, {
+  "id": 17,
+  "title": "iPhone 11 - žalias",
+  "price": 997.2,
+  "discount": 1,
+  "color": "Žalia",
+  "category": "Mobilieji telefonai",
+  "description": "scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas"
+}, {
+  "id": 18,
+  "title": "iPhone 11 - raudonas",
+  "price": 999.59,
+  "discount": 1,
+  "color": "Raudona",
+  "category": "Mobilieji telefonai",
+  "description": "vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia"
+}, {
+  "id": 19,
+  "title": "iPhone 11 - juodas",
+  "price": 997.12,
+  "discount": 1,
+  "color": "Juoda",
+  "category": "Mobilieji telefonai",
+  "description": "tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat"
+}, {
+  "id": 20,
+  "title": "iPhone 11 - geltonas",
+  "price": 999.51,
+  "discount": 0,
+  "color": "Geltona",
+  "category": "Mobilieji telefonai",
+  "description": "sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede"
+}, {
+  "id": 21,
+  "title": "Duona",
+  "price": 2.49,
+  "discount": 1,
+  "color": "Geltona",
+  "category": "Maistas ir gėrimai",
+  "description": "vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam"
+}, {
+  "id": 22,
+  "title": "Vynas",
+  "price": 30.88,
+  "discount": 0,
+  "color": "Mėlyna",
+  "category": "Maistas ir gėrimai",
+  "description": "viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac"
+}, {
+  "id": 23,
+  "title": "Konservai",
+  "price": 2.76,
+  "discount": 1,
+  "color": "Geltona",
+  "category": "Maistas ir gėrimai",
+  "description": "in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo"
+}, {
+  "id": 24,
+  "title": "Krevetės",
+  "price": 30.82,
+  "discount": 1,
+  "color": "Balta",
+  "category": "Maistas ir gėrimai",
+  "description": "egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget"
+}, {
+  "id": 25,
+  "title": "Lemonadas",
+  "price": 5.31,
+  "discount": 1,
+  "color": "Geltona",
+  "category": "Maistas ir gėrimai",
+  "description": "nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet"
+}, {
+  "id": 26,
+  "title": "Ritinėlis",
+  "price": 10.76,
+  "discount": 1,
+  "color": "Geltona",
+  "category": "Maistas ir gėrimai",
+  "description": "mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh"
+}, {
+  "id": 27,
+  "title": "Bananai",
+  "price": 5.05,
+  "discount": 1,
+  "color": "Geltona",
+  "category": "Maistas ir gėrimai",
+  "description": "congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget"
+}, {
+  "id": 28,
+  "title": "Aplesinų sultys",
+  "price": 2.99,
+  "discount": 0,
+  "color": "Žalia",
+  "category": "Maistas ir gėrimai",
+  "description": "lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis"
+}]
