@@ -564,6 +564,22 @@ footer .container .col > a:hover {
   color: #ababf1;
 }
 
+.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
+  height: 10px;
+  overflow: hidden;
+  background: #ebebeb;
+  cursor: pointer;
+}
+
+div.ui-slider-range.ui-widget-header {
+  background: #4848f3;
+  height: 10px;
+}
+
+.ui-slider-handle.ui-state-default.ui-corner-all {
+  opacity: 0;
+}
+
 @media only screen and (max-width: 768px) {
   header .container {
     -ms-grid-columns: 100px auto 70px;
@@ -644,20 +660,3 @@ footer .container .col > a:hover {
     opacity: 1;
   }
 }
-
-.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
-  height: 10px;
-  overflow: hidden;
-  background: #ebebeb;
-  cursor: pointer;
-}
-
-div.ui-slider-range.ui-widget-header {
-  background: #4848f3;
-  height: 10px;
-}
-
-.ui-slider-handle.ui-state-default.ui-corner-all {
-  opacity: 0;
-}
-/*# sourceMappingURL=style.css.map */
