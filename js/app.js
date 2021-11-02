@@ -172,8 +172,14 @@ const printCard = () => {
         totalDOM.innerText = inCartCount;
         totalDOM.classList.add('active');
         document.querySelector('.bag .full').classList.add('active');
-        document.getElementById('total-price').innerText =
-            priceString(get_cart_products().reduce((s, p) => s + (p.discount === 1 ? p.price * 0.9 : p.price), 0));
+        let totalPrice = 0;
+        get_cart_products().forEach(
+            p => {
+                const product = products.find(o => o.id == p.id);
+                totalPrice += Math.round((product.discount === 1 ? product.price * 0.9 : product.price) * 100) / 100 * p.qty;
+            }
+        )
+        document.getElementById('total-price').innerText = priceString(totalPrice);
     } else {
         cardDOM.innerHTML = '<p>Krepšelis tuščias...</p>';
         totalDOM.classList.remove('active');
@@ -182,12 +188,10 @@ const printCard = () => {
     
     document.querySelectorAll('.bag .product-single .qty').forEach(q => {
         q.addEventListener('change', ()=>{
-
             update_cart_products(q.id, q.value, true)
+            printCard();
         })
     })
-
-
 };
 
 printCard();
