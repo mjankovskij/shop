@@ -1,5 +1,7 @@
 const products = await(await fetch('../data/prod_data.json')).json();
 
+
+// sort
 const sort_products = () => {
     switch (localStorage.getItem('sort_products')) {
         case 'PRICE_DESC':
@@ -17,10 +19,10 @@ const sort_products = () => {
 }
 sort_products();
 
-function set_sort_products(value) {
-    localStorage.setItem('sort_products', value)
-}
+// sort on load select
 document.getElementById('sort-products').value = localStorage.getItem('sort_products');
+
+//sort event
 document.getElementById('sort-products').addEventListener('change', () => {
     console.log(document.getElementById('sort-products').value);
     localStorage.setItem('sort_products', document.getElementById('sort-products').value)
@@ -28,6 +30,7 @@ document.getElementById('sort-products').addEventListener('change', () => {
     printProducts();
 })
 
+// temporary data
 const minPrice = Math.round(products.reduce((p, c) => (p.price < c.price) ? p : c).price);
 const maxPrice = Math.ceil(products.reduce((p, c) => (p.price > c.price) ? p : c).price);
 let priceSelectedMin = minPrice;
@@ -35,10 +38,12 @@ let priceSelectedMax = maxPrice;
 let categorySelected;
 const bagDOM = document.querySelector('.shopping-bag');
 
+//return all products from list
 const get_cart_products = () => {
     return JSON.parse(localStorage.getItem('cat_products')) ?? [];
 };
 
+// plus or minus products
 const update_cart_products = (id, quantity, rewrite = false) => {
     let products = get_cart_products();
     const productIndex = products.findIndex(p => p.id == id);
@@ -57,6 +62,7 @@ const update_cart_products = (id, quantity, rewrite = false) => {
     localStorage.setItem('cat_products', JSON.stringify(products));
 }
 
+// categories list
 const categories = [
     {
         id: 0,
@@ -127,7 +133,6 @@ const printProducts = () => {
         })
     addToCartEvenets();
 }
-
 printProducts();
 
 
@@ -193,7 +198,6 @@ const printCard = () => {
         })
     })
 };
-
 printCard();
 
 // SEARCH products
@@ -266,6 +270,7 @@ document.getElementById('show-all-produtcs').addEventListener('click', () => {
     printProducts();
 });
 
+// price num to eur
 function priceString(price) {
     return new Intl.NumberFormat('lt-LT', { style: 'currency', currency: 'EUR' }).format(price);
 }
@@ -282,8 +287,7 @@ bagDOM.addEventListener('click', ({ target }) => {
     }
 });
 
-// 
-
+// mobile arrow event
 document.querySelectorAll('.layout-left .options-display').forEach(el => {
     el.querySelector('.arrow').addEventListener('click', () => {
         el.classList.toggle('active')
